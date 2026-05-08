@@ -1204,6 +1204,17 @@ button { font: inherit; cursor: pointer; }
   color: var(--text);
   box-shadow: 0 0 0 1px rgba(0, 229, 255, 0.15);
 }
+.method--primary {
+  border-color: rgba(0, 229, 255, 0.5);
+  background: rgba(0, 229, 255, 0.06);
+}
+.method--primary .method__icon {
+  background: var(--cyan);
+  color: var(--bg);
+}
+.method--primary strong {
+  color: var(--cyan);
+}
 .method__icon {
   width: 44px;
   height: 44px;
