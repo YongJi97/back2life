@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: back2life_web
+    ports:
+      - "3005:80"
+    restart: unless-stopped

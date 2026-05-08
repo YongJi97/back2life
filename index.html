@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0c" />
+
+    <title>Back 2 Life Studio — Modern Barber Studio in Staten Island, NY</title>
+    <meta
+      name="description"
+      content="Back 2 Life Studio in Staten Island. Fades, tape ups, mohawks, flat tops, hot towels, braids and hair extensions. Walk-ins welcome. Under new management — Grand Opening."
+    />
+    <meta name="author" content="Back 2 Life Studio" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Back 2 Life Studio — Staten Island, NY" />
+    <meta
+      property="og:description"
+      content="Modern barber studio under new management. Fades, tape ups, braids, hot towels & more. Walk-ins welcome."
+    />
+    <meta property="og:image" content="assets/interior-4.png" />
+
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- LocalBusiness schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Back 2 Life Studio",
+        "alternateName": "Back 2 Life Barber Studio",
+        "image": "assets/interior-4.png",
+        "telephone": "+1-347-466-4270",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Staten Island",
+          "addressRegion": "NY",
+          "addressCountry": "US"
+        },
+        "sameAs": ["https://www.instagram.com/back2lifebarbershop_/"]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Top utility bar -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <span class="topbar__item topbar__pulse">
+          <span class="dot" aria-hidden="true"></span>
+          Under New Management · Grand Opening
+        </span>
+        <span class="topbar__sep" aria-hidden="true">·</span>
+        <a class="topbar__item" href="tel:+13474664270">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.6 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.4 11.4 0 00.6 3.6 1 1 0 01-.25 1l-2.2 2.2z" />
+          </svg>
+          (347) 466-4270
+        </a>
+        <span class="topbar__sep" aria-hidden="true">·</span>
+        <span class="topbar__item topbar__hours">Walk-ins welcome · 7 days a week</span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="siteHeader">
+      <div class="container header__inner">
+        <a href="#top" class="brand" aria-label="Back 2 Life Studio home">
+          <span class="brand__hex" aria-hidden="true">
+            <svg viewBox="0 0 100 100">
+              <polygon points="50,4 92,28 92,72 50,96 8,72 8,28" fill="none" stroke="currentColor" stroke-width="4" />
+            </svg>
+            <span class="brand__hex-num">B2L</span>
+          </span>
+          <span class="brand__text">
+            <span class="brand__name">Back 2 Life</span>
+            <span class="brand__sub">Studio · Staten Island</span>
+          </span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="primaryNav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#visit">Visit</a>
+          <a class="btn btn--primary nav__cta" href="#book">Book Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero__media" aria-hidden="true">
+          <img src="assets/interior-4.png" alt="" />
+          <div class="hero__scrim"></div>
+          <div class="hero__hex" aria-hidden="true"></div>
+        </div>
+
+        <div class="container hero__inner">
+          <p class="eyebrow reveal">
+            <span class="dot dot--cyan" aria-hidden="true"></span>
+            Now open · Under new management
+          </p>
+          <h1 class="hero__title reveal">
+            Where Staten Island<br />
+            comes for the <span class="accent">cut.</span>
+          </h1>
+          <p class="hero__lede reveal">
+            Modern studio. Honeycomb-lit chairs. Real barbers who know fades,
+            tape-ups, braids and beard work. Walk in, sit down, leave looking
+            sharp.
+          </p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--primary btn--lg" href="#book">
+              Book a chair
+              <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="tel:+13474664270">
+              Call (347) 466-4270
+            </a>
+          </div>
+
+          <div class="hero__trust reveal">
+            <div class="trust">
+              <svg viewBox="0 0 24 24" class="trust__check" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+              <div class="trust__text">
+                Walk-ins welcome <span>· 7 days a week</span>
+              </div>
+            </div>
+            <div class="trust">
+              <svg viewBox="0 0 24 24" class="trust__check" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+              <div class="trust__text">
+                All ages <span>· kids to grown</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="hero__scroll" href="#about" aria-label="Scroll to next section">
+          <span></span>
+        </a>
+      </section>
+
+      <!-- TRUST STRIP -->
+      <section class="strip" aria-label="At a glance">
+        <div class="container strip__grid">
+          <div class="strip__item">
+            <span class="strip__num">7</span>
+            <span class="strip__label">Days a week</span>
+          </div>
+          <div class="strip__item">
+            <span class="strip__num">$25+</span>
+            <span class="strip__label">Cuts starting at</span>
+          </div>
+          <div class="strip__item">
+            <span class="strip__num">All ages</span>
+            <span class="strip__label">Kids to grown</span>
+          </div>
+          <div class="strip__item">
+            <span class="strip__num">Walk-in</span>
+            <span class="strip__label">Or book ahead</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section section--alt" id="about">
+        <div class="container about">
+          <div class="about__copy reveal">
+            <p class="eyebrow">About the studio</p>
+            <h2 class="h2">A fresh chapter for a neighborhood favorite.</h2>
+            <p>
+              Back 2 Life Studio just reopened under new management — same
+              great chair, sharper than ever. Step in and you’ll see why people
+              are talking: a hand-built honeycomb LED ceiling, ring-lit
+              stations at every chair, and a team that takes pride in every
+              tape up, fade, and design.
+            </p>
+            <p>
+              Whether you’re after a quick line-up before work, full braids,
+              your kid’s first cut, or a hot towel reset on the weekend —
+              we’ve got the chair, and we’ve got the time.
+            </p>
+
+            <ul class="checks">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+                Walk-ins welcome — appointments recommended on weekends
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+                Fades, tape ups, mohawks, flat tops, designs
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+                Braids and hair extensions on-site
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+                Kid-friendly — first cut, every cut
+              </li>
+            </ul>
+
+            <a class="btn btn--primary" href="#services">See services & pricing</a>
+          </div>
+
+          <div class="about__media reveal">
+            <div class="about__photo about__photo--1">
+              <img src="assets/interior-7.png" alt="Inside Back 2 Life Studio with the signature hexagon LED ceiling" loading="lazy" />
+            </div>
+            <div class="about__photo about__photo--2">
+              <img src="assets/storefront.png" alt="Back 2 Life Studio storefront on grand opening day" loading="lazy" />
+            </div>
+            <div class="about__badge">
+              <span class="about__badge-num">NEW</span>
+              <span class="about__badge-text">Grand Opening</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">Our services</p>
+            <h2 class="h2">Straightforward pricing. Sharp results.</h2>
+            <p class="section__sub">
+              Every cut includes a clean lineup and a finishing style. No surprises at the chair.
+            </p>
+          </header>
+
+          <div class="services">
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 18h18M3 14h18M3 10h12M3 6h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="service__name">Fade</h3>
+              <p class="service__desc">Skin, low, mid or high — your call. Includes lineup &amp; style.</p>
+              <div class="service__row">
+                <span class="service__price">$30</span>
+                <span class="service__time">~ 35 min</span>
+              </div>
+            </article>
+
+            <article class="service service--feature reveal">
+              <span class="service__tag">Most booked</span>
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 12c4 0 4-4 8-4s4 4 8 4M3 17c4 0 4-4 8-4s4 4 8 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+              </div>
+              <h3 class="service__name">Cut + Beard</h3>
+              <p class="service__desc">Full reset. Fresh cut, beard sculpting and hot-towel finish.</p>
+              <div class="service__row">
+                <span class="service__price">$45</span>
+                <span class="service__time">~ 50 min</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 20l8-16 8 16M7 14h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="service__name">Tape Up</h3>
+              <p class="service__desc">Crisp lines and clean edges to keep your last cut looking new.</p>
+              <div class="service__row">
+                <span class="service__price">$20</span>
+                <span class="service__time">~ 20 min</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 17l4-7 3 4 4-9 4 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="service__name">Mohawk / Flat Top</h3>
+              <p class="service__desc">Classic shapes done right. Built to hold up all week.</p>
+              <div class="service__row">
+                <span class="service__price">$35</span>
+                <span class="service__time">~ 40 min</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 12l3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="service__name">Hot Towel Shave</h3>
+              <p class="service__desc">Straight razor, warm lather, hot towel — the full reset.</p>
+              <div class="service__row">
+                <span class="service__price">$30</span>
+                <span class="service__time">~ 30 min</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 4c2 6 2 10 0 16M12 4c2 6 2 10 0 16M19 4c2 6 2 10 0 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="service__name">Braids &amp; Cornrows</h3>
+              <p class="service__desc">Box braids, cornrows, designs and styles — by appointment.</p>
+              <div class="service__row">
+                <span class="service__price">From $60</span>
+                <span class="service__time">price by style</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 12c4-8 12-8 16 0M4 12c4 8 12 8 16 0" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2" fill="currentColor"/></svg>
+              </div>
+              <h3 class="service__name">Hair Extensions</h3>
+              <p class="service__desc">Different methods of hair extensions — book a free consult first.</p>
+              <div class="service__row">
+                <span class="service__price">Quoted</span>
+                <span class="service__time">consult first</span>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 20l4-12 3 9 3-6 4 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="service__name">Kids’ Cut <small>(12 &amp; under)</small></h3>
+              <p class="service__desc">Patient barbers and a chair the little ones love.</p>
+              <div class="service__row">
+                <span class="service__price">$25</span>
+                <span class="service__time">~ 30 min</span>
+              </div>
+            </article>
+          </div>
+
+          <p class="services__note reveal">
+            Cash, card, Zelle and Apple Pay accepted. Tipping appreciated, never expected.
+          </p>
+        </div>
+      </section>
+
+      <!-- THE ROOM -->
+      <section class="section section--alt" id="theroom">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">The room</p>
+            <h2 class="h2">Built around the chair you want to sit in.</h2>
+            <p class="section__sub">
+              We rebuilt the studio top to bottom. Honeycomb LEDs across the ceiling,
+              ring-lit stations at every chair, big TVs, and floors clean enough to dance on.
+            </p>
+          </header>
+
+          <div class="room">
+            <figure class="room__feature reveal">
+              <img src="assets/interior-1.png" alt="Honeycomb LED ceiling above the barber stations at Back 2 Life Studio" loading="lazy" />
+              <figcaption>Our signature honeycomb LED ceiling.</figcaption>
+            </figure>
+
+            <div class="room__list">
+              <div class="room__item reveal">
+                <span class="room__num">01</span>
+                <h3>Ring-lit stations</h3>
+                <p>Every chair has a built-in ring light and large mirror — no more guessing how the cut will look in real life.</p>
+              </div>
+              <div class="room__item reveal">
+                <span class="room__num">02</span>
+                <h3>Modern, comfortable seating</h3>
+                <p>Premium hydraulic chairs at every station, plus a comfy waiting bench with phone-charging spots.</p>
+              </div>
+              <div class="room__item reveal">
+                <span class="room__num">03</span>
+                <h3>TVs at every angle</h3>
+                <p>Catch the game, the news or the music videos while you wait — there’s a screen for every chair.</p>
+              </div>
+              <div class="room__item reveal">
+                <span class="room__num">04</span>
+                <h3>Spotless &amp; sanitized</h3>
+                <p>Tools cleaned between every client. Floors, capes and stations kept hospital-clean all day.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">The work</p>
+            <h2 class="h2">Recent cuts from the chair.</h2>
+            <p class="section__sub">
+              Follow <a href="https://www.instagram.com/back2lifebarbershop_/" target="_blank" rel="noopener">@back2lifebarbershop_</a>
+              for fresh cuts every day.
+            </p>
+          </header>
+
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--lg reveal">
+              <img src="assets/interior-4.png" alt="Wide view of the studio with the honeycomb LED ceiling" loading="lazy" />
+            </figure>
+            <figure class="gallery__item reveal">
+              <img src="assets/cut-3.png" alt="Young client smiling in a Back 2 Life branded cape" loading="lazy" />
+            </figure>
+            <figure class="gallery__item reveal">
+              <img src="assets/cut-1.png" alt="Cornrows finished with a clean fade" loading="lazy" />
+            </figure>
+            <figure class="gallery__item reveal">
+              <img src="assets/interior-6.png" alt="Looking out of the studio at street level" loading="lazy" />
+            </figure>
+            <figure class="gallery__item reveal">
+              <img src="assets/cut-2.png" alt="Detailed cornrows with a sharp side fade" loading="lazy" />
+            </figure>
+            <figure class="gallery__item reveal">
+              <img src="assets/interior-8.png" alt="Studio interior with daylight streaming through the front windows" loading="lazy" />
+            </figure>
+          </div>
+
+          <div class="gallery__cta reveal">
+            <a
+              class="btn btn--ghost"
+              href="https://www.instagram.com/back2lifebarbershop_/"
+              target="_blank"
+              rel="noopener"
+            >
+              See more on Instagram
+              <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS -->
+      <section class="section section--alt" id="reviews">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">What people say</p>
+            <h2 class="h2">A reputation built one chair at a time.</h2>
+          </header>
+
+          <div class="reviews">
+            <figure class="review reveal">
+              <div class="review__stars" aria-label="5 stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+              </div>
+              <blockquote>
+                “Came in for a tape up, walked out with the cleanest cut I’ve had in
+                months. Spot is gorgeous — those ceiling lights are crazy. My new spot.”
+              </blockquote>
+              <figcaption>Recent walk-in client</figcaption>
+            </figure>
+
+            <figure class="review reveal">
+              <div class="review__stars" aria-label="5 stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+              </div>
+              <blockquote>
+                “Brought my son for his first real cut. The barber was patient, made
+                him laugh the whole time, and the cut came out perfect.”
+              </blockquote>
+              <figcaption>Local parent</figcaption>
+            </figure>
+
+            <figure class="review reveal">
+              <div class="review__stars" aria-label="5 stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.6-7L2 9.3l7.1-.6L12 2l2.9 6.7 7.1.6-5.4 4.7 1.6 7z"/></svg>
+              </div>
+              <blockquote>
+                “Got cornrows put in here last weekend — clean, tight, and the price
+                was fair. Place is brand new and the vibe is on point.”
+              </blockquote>
+              <figcaption>Regular client</figcaption>
+            </figure>
+          </div>
+
+          <p class="reviews__note reveal">
+            Want to see more? Check out the latest reviews on
+            <a href="https://www.google.com/search?q=back+2+life+studio+staten+island" target="_blank" rel="noopener">Google</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- BOOKING / VISIT -->
+      <section class="section" id="book">
+        <div class="container book">
+          <div class="book__copy reveal">
+            <p class="eyebrow">Book your chair</p>
+            <h2 class="h2">Three easy ways to lock in your next cut.</h2>
+            <p>
+              Walk-ins are always welcome — just stroll in. Saturday afternoons
+              fill up fast, so call or DM ahead to grab your time.
+            </p>
+
+            <div class="book__methods">
+              <a class="method" href="tel:+13474664270">
+                <div class="method__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.6 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.4 11.4 0 00.6 3.6 1 1 0 01-.25 1l-2.2 2.2z"/></svg>
+                </div>
+                <div>
+                  <strong>Call the studio</strong>
+                  <span>(347) 466-4270</span>
+                </div>
+              </a>
+
+              <a
+                class="method"
+                href="https://www.instagram.com/back2lifebarbershop_/"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="method__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+                </div>
+                <div>
+                  <strong>DM on Instagram</strong>
+                  <span>@back2lifebarbershop_</span>
+                </div>
+              </a>
+
+              <a class="method" href="sms:+13474664270">
+                <div class="method__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 011 1v10a1 1 0 01-1 1H8l-4 4V6a1 1 0 011-1z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+                </div>
+                <div>
+                  <strong>Text the studio</strong>
+                  <span>(347) 466-4270</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <aside class="book__card reveal" id="visit">
+            <div class="book__photo">
+              <img src="assets/storefront.png" alt="Back 2 Life Studio storefront on grand opening day" loading="lazy" />
+            </div>
+
+            <h3 class="book__card-title">Visit the studio</h3>
+            <address class="book__address">
+              Staten Island, NY<br />
+              <span class="book__address-note">Full address — see Google for directions</span>
+            </address>
+
+            <a
+              class="book__directions btn btn--ghost"
+              href="https://www.google.com/maps/search/?api=1&query=back+2+life+barber+studio+staten+island"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="book__directions-text-full">Get directions on Google</span>
+              <span class="book__directions-text-short">Get directions</span>
+              <svg viewBox="0 0 24 24" class="btn__arrow" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+
+            <div class="book__hours">
+              <h4>Hours</h4>
+              <ul>
+                <li><span>Monday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Tuesday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Wednesday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Thursday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Friday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Saturday</span><span>9 AM – 8 PM</span></li>
+                <li><span>Sunday</span><span>9 AM – 5 PM</span></li>
+              </ul>
+              <p class="book__hours-note">Hours subject to change — call ahead to confirm.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="assets/logo.png" alt="" class="footer__logo" />
+          <p class="footer__tag">
+            Modern barber studio in Staten Island. Fades, tape ups, braids,
+            extensions, hot towels and more — under new management.
+          </p>
+        </div>
+
+        <div class="footer__cols">
+          <div>
+            <h4>Visit</h4>
+            <p>Staten Island, NY<br />
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=back+2+life+barber+studio+staten+island"
+                target="_blank"
+                rel="noopener"
+              >Find us on Google</a>
+            </p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <a href="tel:+13474664270">(347) 466-4270</a><br />
+              <a href="https://www.instagram.com/back2lifebarbershop_/" target="_blank" rel="noopener">@back2lifebarbershop_</a>
+            </p>
+          </div>
+          <div>
+            <h4>Hours</h4>
+            <p>Mon – Sat · 9 AM – 8 PM<br />Sun · 9 AM – 5 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__base">
+        <div class="container footer__base-inner">
+          <span>© <span id="year"></span> Back 2 Life Studio. All rights reserved.</span>
+          <span class="footer__credit">Made with care · <a href="#top">back to top ↑</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="fab" href="#book" aria-label="Book an appointment">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      <span>Book</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
